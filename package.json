@@ -13,7 +13,21 @@
     "type": "git",
     "url": "git+https://github.com/bconnorwhite/remove-dir-safe.git"
   },
-  "keywords": [],
+  "keywords": [
+    "remove",
+    "dir",
+    "directory",
+    "directories",
+    "recursively",
+    "safe",
+    "without",
+    "try",
+    "catch",
+    "throw",
+    "throwing",
+    "fs-safe",
+    "fs"
+  ],
   "files": [
     "build"
   ],
