@@ -1,6 +1,6 @@
 {
   "name": "remove-dir-safe",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Remove directories recursively or non-recursively",
   "license": "MIT",
   "author": {
