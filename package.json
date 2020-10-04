@@ -1,7 +1,7 @@
 {
   "name": "remove-dir-safe",
   "version": "1.0.0",
-  "description": "Remove directories recursively or non-recursively without throwing",
+  "description": "Remove directories recursively or non-recursively",
   "license": "MIT",
   "author": {
     "name": "Connor White",

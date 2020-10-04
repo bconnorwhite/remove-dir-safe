@@ -1,5 +1,7 @@
 <div align="center">
-  <h1>remove-dir-safe</h1>
+  <a href="https://github.com/bconnorwhite/remove-dir-safe">
+    <img alt="remove-dir-safe" src="assets/header.svg" />
+  </a>
   <a href="https://npmjs.com/package/remove-dir-safe">
     <img alt="NPM" src="https://img.shields.io/npm/v/remove-dir-safe.svg">
   </a>
@@ -19,7 +21,7 @@
 
 <br />
 
-> Remove directories recursively or non-recursively without throwing.
+> Remove directories recursively or non-recursively.
 
 - Returns `true` if directory no longer exists.
 - Returns `false` if unable to remove directory.
@@ -45,7 +47,10 @@ function removeDir(path: string, options: Options): Promise<boolean | undefined>
 function removeDirSync(path: string, options: Options): boolean | undefined;
 
 type Options = {
-  recursive?: boolean; // Default: true
+  /**
+   * If true, perform a recursive directory removal. Default: `true`
+   */
+  recursive?: boolean;
 }
 ```
 
@@ -64,8 +69,11 @@ type Options = {
 
 [MIT](https://opensource.org/licenses/MIT)
 
+<br />
+
 ## Related Packages
 
+- [fs-safe](https://www.npmjs.com/package/fs-safe): A simple fs wrapper that doesn't throw
 - [read-dir-safe](https://www.npmjs.com/package/read-dir-safe): Read directories recursively or non-recursively
 - [write-dir-safe](https://www.npmjs.com/package/write-dir-safe): Create directories and their parents recursively
 - [read-file-safe](https://www.npmjs.com/package/read-file-safe): Read files without try catch
