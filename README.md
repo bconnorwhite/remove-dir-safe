@@ -40,7 +40,7 @@ npm install remove-dir-safe
 ## API
 
 ```ts
-import { removeDir, removeDirSync, Options } from "write-dir-safe";
+import { removeDir, removeDirSync, Options } from "remove-dir-safe";
 
 function removeDir(path: string, options: Options): Promise<boolean | undefined>;
 
